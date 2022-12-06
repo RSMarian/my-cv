@@ -1,0 +1,246 @@
+body {
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+    box-shadow: 0px 3px 20px 3px #888888;
+}
+
+/* Right Section Styles */
+
+.right-section {
+    padding-left: 88px;
+    padding-right: 260px;
+    background-color: #FFFFFF;
+}
+
+.right-section-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.about-me-section {
+    width: 500px;
+}
+
+.about-me-profession {
+    color: black;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 100px;
+}
+
+#personName {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 20px;
+}
+
+.about-me-section p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projects-section {
+    margin-top: 40px;
+    width: 550px;
+}
+
+
+.projects-section h2 {
+    margin-top: 0;
+}
+
+.projects-section ol {
+    padding-left: 19px;
+}
+
+ol li, .bracket {
+    font-weight: 700;
+    color: #000000;
+}
+
+.projects-item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #595959;
+    margin-left: 10px;
+}
+
+.projects-item a {
+    color: #595959;
+}
+
+.work-experience-section {
+    margin-top: 50px;
+}
+
+.work-experience-position{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.work-experience-company {
+    color: #FB6D3A;
+    margin-left: 3px;
+}
+
+.work-experience-period {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+.line-break {
+    color: #000000;
+}
+
+.work-experience-duties {
+    padding-left: 17px;
+}
+
+.work-experience-duties li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;   
+}
+
+.education-section {
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.education-place {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;   
+}
+
+.education-specialization {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.education-period {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+/* Sidebar Styles */
+
+.sidebar-section {
+    background-color: #1E2939;
+    width: 370px;
+}
+
+.sidebar-section img {
+    margin-top: 40px;
+    width: 370px;
+    height: 450px;
+}
+
+.sidebar-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.contacts-section,
+.tech-skills-section,
+.soft-skills-section {
+    margin-left: 40px;
+}
+
+.contacts-section {
+    margin-bottom: 60px;
+}
+
+.contacts-section-type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.contacts-section-value {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.sidebar-list {
+    color: #FB6D3A;
+    padding-left: 18px;
+}
+
+.sidebar-list span {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.8;
+}
+
+.sidebar-subtitle {
+    margin-top: -15px;
+    margin-left: -5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
